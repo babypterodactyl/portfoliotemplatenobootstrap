@@ -1,0 +1,49 @@
+* {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.header {}
+
+.udacity-logo {
+    /*needs to align left*/
+}
+
+.myname {
+    /*needs to align right*/
+    text-align: right;
+}
+
+.blurb {
+    text-align: right;
+}
+
+hr {
+    /*horizontal rule*/
+    border: 2px solid gray;
+}
+
+/* This doesn't seem to work for what I need
+.flex-container {
+    justify-content: center;
+} */
+
+
+.main-image {
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.featured-heading-text {
+    font-size: 1.5em;
+    color: gray;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.work-image {
+    width: 320px;
+}
