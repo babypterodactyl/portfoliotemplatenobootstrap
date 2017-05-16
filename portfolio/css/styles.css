@@ -4,24 +4,33 @@
     font-weight: lighter;
 }
 
-.header {}
+.header {
+  display: flex;
+}
 
 .udacity-logo {
     /*needs to align left*/
 }
 
 .myname {
-    /*needs to align right*/
+    width: 50%;
     text-align: right;
+    
 }
 
 .blurb {
+    width: 50%;
     text-align: right;
 }
 
-hr {
-    /*horizontal rule*/
-    border: 2px solid gray;
+.hr {
+    /*horizontal rule - this needs margin work*/
+    color: gray;
+    font-weight: bolder;
+    max-width: 960px;
+    padding: 20px 0px 20px 0px;
+
+
 }
 
 /* This doesn't seem to work for what I need
